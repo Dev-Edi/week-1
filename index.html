@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Fill in the spaces below with the required information;</h2>   
+    <form method="/">
+        <fieldset style="border-color: antiquewhite;background-color: rgb(211, 171, 122);margin-left:400px;margin-right: 400px;  padding: 40px;font-style: oblique;font-size: xx-large;border-radius: 40px;margin-top: -20px;">
+            <div>
+              <label for="Name">Name:</label>
+                <input type="text" name="Name" id="Name" style="border-radius:40px" required>
+            </div>
+            <div>      
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" style="border-radius:40px" required>
+            </div>
+            <div>           
+                <label for="phone">phone number:</label>
+                <input type="tel" name="phone" id="phone" style="border-radius: 40px;" required>
+            </div>
+           <label for="Password">Password:</label>
+           <input type="password" name="password" id="password" style="border-radius: 40px;" required>I
+           <label for="male">Male</label>
+           <input type="radio" name="male" id="male">          
+           <label for="female">Female</label>
+           <input type="radio" name="female" id="female">
+           <div>
+            <input type="submit" value="submit" onclick="alert(success)" >
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>
